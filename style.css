@@ -1,10 +1,10 @@
 :root {
     /* colors */
-    --primary-color: #dfdfe2;
-    --secondary-color: #ffffff;
+    --primary-color: #090972;
+    --secondary-color: #c9c3c3;
     --app-background-color: #cacaf3;
-    --background-color: #0847ae;
-    --foreground-color: #3b3b4f;
+    --background-color: #d3d4d7;
+    --foreground-color: #e1e1ee;
     --highlight-color: #40a4f0;
   
     /* font sizes */
@@ -177,7 +177,7 @@
 .player-audio-duration-field {
     background-color: var(--highlight-color);
     height: 4px;           /* Make it more visible */
-    width: 80%;            /* This will be overridden by JS */
+    width: 100%;            /* This will be overridden by JS */
     min-width: 0;
     max-width: 100%;
     transition: width 0.2s;
@@ -279,11 +279,15 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    column-gap: 7px;
+    width: 100%;
     padding: 5px 0;
     font-family: var(--font-family);
+  }
+
+  .playlist-song-title {
+    width: 80%; 
+    padding: 0 10px;
   }
   
   #player-song-title,

@@ -20,31 +20,38 @@ const allSongs = [
                </br> His glory tell, His praise proclaim;
                </br> Ye children of His chosen race,
                </br> Stand ye in awe before His face.
+               </br>
                </br> 2 The suffering one He has not spurned
                </br> Stand ye in awe before His face.
                </br> Who to Him for support has turned;
                </br> From him He has not hid His face,
                </br> But answered his request in grace.
+               </br>
                </br> 3 O LORD, Thy goodness makes me raise
                </br> Amid Thy people songs of praise;
                </br> Before all them that fear Thee, now
                </br> I worship Thee and pay my vow.
+               </br>
                </br> 4 For all the meek You will provide,
                </br> They shall be fed and satisfied;
                </br> All they that seek the LORD shall live
                </br> And never-ending praises give.
+               </br>
                </br> 5 The ends of all the earth shall hear
                </br> And turn unto the Lord in fear;
                </br> All kindreds of the earth shall own
                </br> And worship Him as God alone.
+               </br>
                </br> 6 For His the kingdom, His of right,
                </br> He rules the nations by His might;
                </br> All earth to Him her homage brings,
                </br> The LORD of lords, the King of kings.
+               </br>
                </br> 7 Both rich and poor, both bond and free,
                </br> Shall worship Him with bended knee,
                </br> And children’s children shall proclaim
                </br> The glorious honor of His name.
+               </br>
                </br> 8 The LORD’s unfailing righteousness
                </br> All generations shall confess,
                </br> From age to age shall men be taught
@@ -94,26 +101,30 @@ const allSongs = [
         src: "/hymns/Hymn 13 O Worship The King.mp3",
         content: `
                 </br> 1 O worship the King all-glorious above,
-                O gratefully sing his power and his love:
-                our shield and defender, the Ancient of Days,
-                pavilioned in splendor and girded with praise.
-                2 O tell of his might and sing of his grace,
-                whose robe is the light, whose canopy space.
-                His chariots of wrath the deep thunderclouds form,
-                and dark is his path on the wings of the storm.
-                3 Your bountiful care, what tongue can recite?
-                It breathes in the air, it shines in the light;
-                it streams from the hills, it descends to the plain,
-                and sweetly distills in the dew and the rain.
-                4 Frail children of dust, and feeble as frail,
-                in you do we trust, nor find you to fail.
-                Your mercies, how tender, how firm to the end,
-                our Maker, Defender, Redeemer, and Friend!
-                5 O measureless Might, unchangeable Love,
-                whom angels delight to worship above!
-                Your ransomed creation, with glory ablaze,
-                in true adoration shall sing to your praise!
-                Psalter Hymnal, (Gray)`
+                </br>O gratefully sing his power and his love:
+                </br>our shield and defender, the Ancient of Days,
+                </br>pavilioned in splendor and girded with praise.
+                </br>
+                </br>2 O tell of his might and sing of his grace,
+                </br>whose robe is the light, whose canopy space.
+                </br>His chariots of wrath the deep thunderclouds form,
+                </br>and dark is his path on the wings of the storm.
+                </br>
+                </br>3 Your bountiful care, what tongue can recite?
+                </br>It breathes in the air, it shines in the light;
+                </br>it streams from the hills, it descends to the plain,
+                </br>and sweetly distills in the dew and the rain.
+                </br>
+                </br>4 Frail children of dust, and feeble as frail,
+                </br>in you do we trust, nor find you to fail.
+                </br>Your mercies, how tender, how firm to the end,
+                </br>our Maker, Defender, Redeemer, and Friend!
+                </br>
+                </br>5 O measureless Might, unchangeable Love,
+                </br>whom angels delight to worship above!
+                </br>Your ransomed creation, with glory ablaze,
+                </br>in true adoration shall sing to your praise!
+                </br>Psalter Hymnal, (Gray)`
     },
      {
         id: 23,
@@ -123,37 +134,43 @@ const allSongs = [
         src: "/hymns/Hymn 23 O Light That Knew No Dawn.mp3",
         content: `
                 </br> 1 O Light that knew no dawn,
-                that shines to endless day,
-                all things in earth and heav'n
-                are lustered by thy ray;
-                no eye can to thy throne ascend,
-                nor mind thy brightness comprehend.
-                2 Thy grace, O Father, give,
-                that I may serve in fear;
-                above all boons, I pray,
-                grant me thy voice to hear;
-                from sin thy child in mercy free,
-                and let me dwell in light with thee:
-                3 That, cleansed from stain of sin,
-                I may meet homage give,
-                and, pure in heart, behold
-                thy beauty while I live;
-                clean hands in holy worship raise,
-                and thee, O Christ my Savior, praise.
-                4 In supplication meek
-                to thee I bend the knee;
-                O Christ, when thou shalt come,
-                in love remember me,
-                and in thy kingdom, by thy grace,
-                grant me a humble servant's place.
-                5 Thy grace, O Father, give,
-                I humbly thee implore;
-                and let thy mercy bless
-                thy servant more and more.
-                All grace and glory be to thee,
-                from age to age eternally.
+              </br>  that shines to endless day,
+              </br>  all things in earth and heav'n
+              </br>  are lustered by thy ray;
+              </br>  no eye can to thy throne ascend,
+              </br>  nor mind thy brightness comprehend.
+              </br>
 
-                Source: Trinity Psalter Hymnal #221`
+              </br>  2 Thy grace, O Father, give,
+              </br>  that I may serve in fear;
+              </br>  above all boons, I pray,
+              </br>  grant me thy voice to hear;
+              </br>  from sin thy child in mercy free,
+              </br>  and let me dwell in light with thee:
+              </br>
+
+              </br>  3 That, cleansed from stain of sin,
+              </br>  I may meet homage give,
+              </br>  and, pure in heart, behold
+              </br>  thy beauty while I live;
+              </br>  clean hands in holy worship raise,
+              </br>  and thee, O Christ my Savior, praise.
+
+              </br>  4 In supplication meek
+              </br>  to thee I bend the knee;
+              </br>  O Christ, when thou shalt come,
+              </br>  in love remember me,
+              </br>  and in thy kingdom, by thy grace,
+              </br>  grant me a humble servant's place.
+              </br>
+              </br>  5 Thy grace, O Father, give,
+              </br>  I humbly thee implore;
+              </br>  and let thy mercy bless
+              </br>  thy servant more and more.
+              </br>  All grace and glory be to thee,
+              </br>  from age to age eternally.
+</br>
+              </br>  Source: Trinity Psalter Hymnal #221`
     },
      {
         id: 30,
@@ -163,27 +180,31 @@ const allSongs = [
         src: "/hymns/Hymn 30 Let Us With A Gladsome Mind.mp3",
         content: `
                 </br> 1 Let us with a gladsome mind
-                praise the Lord, for he is kind:
-                for his mercies shall endure,
-                ever faithful, ever sure.
-                2 Let us sound his name abroad,
-                for of gods he is the God:
-                for his mercies shall endure,
-                ever faithful, ever sure.
-                3 He, with all-commanding might,
-                filled the new-made world with light:
-                for his mercies shall endure,
-                ever faithful, ever sure.
-                4 All things living he doth feed,
-                his full hand supplies their need:
-                for his mercies shall endure,
-                ever faithful, ever sure.
-                5 Let us then with gladsome mind
-                praise the Lord, for he is kind:
-                for his mercies shall endure,
-                ever faithful, ever sure.
-
-                Source: Trinity Psalter Hymnal#221`
+              </br>  praise the Lord, for he is kind:
+              </br>  for his mercies shall endure,
+              </br>  ever faithful, ever sure.
+</br>
+              </br>  2 Let us sound his name abroad,
+              </br>  for of gods he is the God:
+              </br>  for his mercies shall endure,
+              </br>  ever faithful, ever sure.
+</br>
+              </br>  3 He, with all-commanding might,
+              </br>  filled the new-made world with light:
+              </br>  for his mercies shall endure,
+              </br>  ever faithful, ever sure.
+</br>
+              </br>  4 All things living he doth feed,
+              </br>  his full hand supplies their need:
+              </br>  for his mercies shall endure,
+              </br>  ever faithful, ever sure.
+              </br>  
+              </br>  5 Let us then with gladsome mind
+              </br>  praise the Lord, for he is kind:
+              </br>  for his mercies shall endure,
+              </br>  ever faithful, ever sure.
+</br>
+              </br>  Source: Trinity Psalter Hymnal#221`
     } ,
      {
         id: 108,
@@ -192,7 +213,42 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 108 Praise Ye, Praise Ye The Lord.mp3",
         content: `
-                </br> `
+                </br>1 Praise ye, praise ye the Lord
+             </br>   In yonder heav'nly height;
+             </br>   Ye angels, all his hosts,
+             </br>   In joyful praise unite;
+             </br>   O sun and moon, declare his might,
+             </br>   Show forth his praise, ye stars of light.
+</br>
+             </br>   2 Praise him, ye highest heav'ns,
+             </br>   Praise him, ye clouds that roll,
+             </br>   Created by his pow'r
+             </br>   And under his control,
+             </br>   Ye heavens that stand eternally,
+             </br>   Established by his firm decree.
+</br>
+             </br>   3 Ye creatures in the sea
+             </br>   And creatures on the earth,
+             </br>   Your mighty Maker praise
+             </br>   And tell his matchless worth;
+             </br>   Praise him, ye stormy winds that blow,
+             </br>   Ye fire and hail, ye rain and snow.
+</br>
+             </br>   3 Ye hills and mountains, praise,
+             </br>   Each tree and beast and bird;
+             </br>   Ye kings and realms of earth,
+             </br>   Now let your praise be heard;
+             </br>   By high and low, by young and old,
+             </br>   Be all his praise and glory told.
+</br>
+             </br>   4 By all let God be praised,
+             </br>   For he alone is great;
+             </br>   Above the earth and heav'n
+             </br>   He reigns in glorious state;
+             </br>   Praise him, ye saints, who know his grace
+             </br>   And ever dwell before his face.
+</br>
+             </br>   Amen. `
     },
      {
         id: 376,
@@ -201,7 +257,37 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 376 Thou Whose Almighty Word.mp3",
         content: `
-                </br> `
+                </br> Thou, whose almighty word
+               </br> Chaos and darkness heard,
+               </br> And took their flight,
+               </br> Hear us, we humbly pray;
+               </br> And, where the gospel's day
+               </br> Sheds not its glorious ray,
+               </br> Let there be light.
+</br>
+               </br> Thou, who didst come to bring
+               </br> On thy redeeming wing
+               </br> Healing and sight,
+               </br> Health to the sick in mind,
+               </br> Sight to the inly blind,
+               </br> O now to all mankind
+               </br> Let there be light.
+</br>
+               </br> Spirit of truth and love,
+               </br> Lifegiving, holy Dove,
+               </br> Speed forth thy flight;
+               </br> Move o'er the waters' face,
+               </br> Bearing the lamp of grace
+               </br> And in earth's darkest place
+               </br> Let there be light.
+</br>
+               </br> Holy and blessed Three,
+               </br> Glorious Trinity,
+               </br> Wisdom, Love, Might!
+               </br> Boundless as ocean's tide,
+               </br> Rolling in fullest pride
+               </br> Through the world far and wide
+               </br> Let there be light.`
     },
      {
         id: 432,
@@ -210,7 +296,52 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 432 Jesus What A Friend For Sinners.mp3",
         content: `
-                </br> `
+                </br> Jesus! what a Friend for sinners!
+              </br>  Jesus! Lover of my soul;
+              </br>  friends may fail me, foes assail me;
+              </br>  He, my Saviour, makes me whole.
+              </br>  Hallelujah! what a Savior!
+              </br>  Hallelujah! what a Friend!
+              </br>  Saving, helping, keeping, loving,
+              </br>  He is with me to the end.
+</br>
+              </br>  Jesus! what a Strength in weakness!
+              </br>  Let me hide myself in Him;
+              </br>  tempted, tried, and sometimes failing,
+              </br>  He, my Strength, my vict’ry wins.
+              </br>  Hallelujah! what a Saviour!
+              </br>  Hallelujah! what a Friend!
+              </br>  Saving, helping, keeping, loving;
+              </br>  He is with me to the end.
+</br>
+              </br>  Jesus! what a Help in sorrow!
+              </br>  While the billows o’er me roll,
+              </br>  even when my heart is breaking,
+              </br>  He, my Comfort, helps my soul.
+              </br>  Hallelujah! what a Saviour!
+              </br>  Hallelujah! what a Friend!
+              </br>  Saving, helping, keeping, loving;
+              </br>  He is with me to the end.
+</br>
+              </br>  Jesus! what a Guide and Keeper!
+              </br>  While the tempest still is high,
+              </br>  storms about me, night o’ertakes me,
+              </br>  He, my Pilot, hears my cry.
+              </br>  Hallelujah! what a Saviour!
+              </br>  Hallelujah! what a Friend!
+              </br>  Saving, helping, keeping, loving;
+              </br>  He is with me to the end.
+</br>
+              </br>  Jesus! I do now receive Him,
+              </br>  more than all in Him I find;
+              </br>  He hath granted me forgiveness;
+              </br>  I am His, and He is mine!
+              </br>  Hallelujah! what a Saviour!
+              </br>  Hallelujah! what a Friend!
+              </br>  Saving, helping, keeping, loving;
+              </br>  He is with me to the end.
+
+`
     } ,
      {
         id: 762,
@@ -219,7 +350,33 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 762 Of Mercy And Of Justice (First Tune).mp3",
         content: `
-                </br> `
+                </br>1 Of mercy and of justice
+             </br>   My thankful song shall be;
+             </br>   O Lord, in joyful praises
+             </br>   My song shall rise to Thee.
+             </br>   Within my house I purpose
+             </br>   to walk in wisdom's way;
+             </br>   O Lord, I need Thy presence;
+             </br>   How long wilt Thou delay?
+</br>
+             </br>   2 On what is base and evil
+             </br>   I will not set my heart;
+             </br>   Transgressor's ways abhorring,
+             </br>   With them I take no part.
+             </br>   No froward man or evil
+             </br>   Shall my companion be;
+             </br>   I will not suffer slander
+             </br>   Or pride or treachery.
+</br>
+             </br>   3 The faithful and the upright
+             </br>   Shall minister to me;
+             </br>   Thy lying and deceitful
+             </br>   My favor shall not see.
+             </br>   I will in daily judgment
+             </br>   All wickedness reward,
+             </br>   And cleanse from evil-doers
+             </br>   The city of the Lord.
+ `
     },
      {
         id: 763,
@@ -228,16 +385,99 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 763 Unto The Lord Life Thankful Voices.mp3",
         content: `
-                </br> `
+                </br> 
+                  </br>  Verse 1
+                  </br>  Unto the Lord lift thankful voices,
+                  </br>  Come, worship while your soul rejoices;
+                  </br>  Make known His doings far and near
+                  </br>  That peoples all His Name may fear,
+                  </br>  And tell, in many joyful lay,
+                  </br>  Of all His wonders day by day.
+</br>
+                  </br>  Verse 2
+                  </br>  In joyful song your hearts uniting,
+                  </br>  His works most marvelous reciting,
+                  </br>  Now glory in His holy Name;
+                  </br>  Let those that seek Him spread His fame,
+                  </br>  Incline their hearts to sing His praise,
+                  </br>  And unto Him their anthems raise.
+</br>
+                  </br>  Verse 3
+                  </br>  Seek ye Jehovah and His power,
+                  </br>  Seek ye His presence every hour.
+                  </br>  His works, so marvelous and great,
+                  </br>  Remember still, and meditate
+                  </br>  Upon the wonders of His hands,
+                  </br>  The judgments which His mouth commands.
+</br>
+                  </br>  Verse 4
+                  </br>  Ye seed from Abraham descended,
+                  </br>  To whom His favors were extended,
+                  </br>  And Jacob's children, whom the Lord
+                  </br>  Has chosen, hearken to His word.
+                  </br>  He is the Lord, our Judge divine;
+                  </br>  In all the earth His glories shine.
+</br>
+                  </br>  Verse 5
+                  </br>  Jehovah's truth will stand forever,
+                  </br>  His covenant-bonds He will not sever;
+                  </br>  The word of grace which He commands
+                  </br>  To thousand generations stands;
+                  </br>  The covenant made in days of old
+                  </br>  With Abraham He doth uphold.
+</br>
+                  </br>  Verse 6
+                  </br>  The Lord His covenant people planted
+                  </br>  In lands of nations which He granted,
+                  </br>  That they His statutes might observe,
+                  </br>  Nor from His laws might ever swerve.
+                  </br>  Let songs of praise to Him ascend,
+                  </br>  And hallelujahs without end.`
     } ,
      {
+
+        // with coughing sound
         id: 765,
-        title: "Hymn 765 My Heart is Firmly Fixed",
+        title: "Hymn 765 My Heart is Firmly Fixed (change)",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 765 My Heart is Firmly Fixed.mp3",
         content: `
-                </br> `
+                </br>
+             </br>   1 My heart is firmly fixed;
+             </br>   to God my song I raise.
+             </br>   Awake, O harp, in joyful strains;
+             </br>   awake, my soul, to praise.
+</br>
+             </br>   2 Among the nations, LORD,
+             </br>   to you my song will rise.
+             </br>   Your faithfulness outshines the heavens,
+             </br>   your mercies reach the skies.
+</br>
+             </br>   3 How great your love, O LORD:
+             </br>   we praise your matchless worth.
+             </br>   Your glory be exalted high
+             </br>   and cover all the earth.
+</br>
+             </br>   4 Stretch forth your mighty hand
+             </br>   in answer to our prayer,
+             </br>   and let your own beloved ones
+             </br>   your great salvation share.
+</br>
+             </br>   5 God speaks: ""All lands are mine,
+             </br>   to serve me and obey;
+             </br>   my people and their foes will serve
+             </br>   my glory day by day.""
+</br>
+             </br>   6 O who will lead us on
+             </br>   in triumph on this day?
+             </br>   LORD, why do you reject your own
+             </br>   and turn your face away?
+</br>
+             </br>   7 An army's help is vain;
+             </br>   to God for help we plead.
+             </br>   With God we shall do valiantly;
+             </br>   with God we shall succeed.`
     }
     // ,
     //  {
