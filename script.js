@@ -85,7 +85,7 @@ const allSongs = [
                      </br>Thy coming in.
                      </br>Above thee, watching, He whom we adore
                      </br>Shall keep thee henceforth, yea, for evermore. `
-    },       
+    }       
 
 ]
 
