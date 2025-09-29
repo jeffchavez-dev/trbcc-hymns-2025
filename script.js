@@ -14,7 +14,7 @@ const allSongs = [
         title: "Hymn # 6 All Ye That Fear Jehovah's Name",
         artist: "TRBCC Hymns",
         duration: "3:36",
-        src: "/hymns/Hymn # 6 All Ye That Fear Jehovah_s Name.mp3",
+        src: "/hymns/Hymn 6 All Ye That Fear Jehovah_s Name.mp3",
         content: `
                 </br>1 All ye that fear Jehovah’s Name,
                </br> His glory tell, His praise proclaim;
@@ -48,7 +48,18 @@ const allSongs = [
                </br> All generations shall confess,
                </br> From age to age shall men be taught
                </br> What wondrous works the Lord has wrought.</p> <p></p> `
-    }      
+    },
+     {
+        id: 0,
+        title: "Hymn # 6 All Ye That Fear Jehovah's Name",
+        artist: "TRBCC Hymns",
+        duration: "3:36",
+        src: "/hymns/Hymn 6 All Ye That Fear Jehovah_s Name.mp3",
+        content: `
+                </br>1 All ye that fear Jehovah’s Name,
+               </br> His glory tell, His praise proclaim;`
+    },       
+    
 ]
 
 
@@ -268,8 +279,10 @@ previousButton.addEventListener('click', playPreviousSong)
 playButton.addEventListener('click', () => {
     if (userData?.currentSong === null) {
         playSong(userData?.songs[0].id)
+        console.log(userData?.songs[0].id)
     }  else {
         playSong(userData?.currentSong.id)
+        console.log("no song selected")
       }
         
 })
