@@ -208,7 +208,7 @@ const allSongs = [
     } ,
      {
         id: 108,
-        title: "Hymn 108 Praise Ye, Praise Ye The Lord",
+        title: "Hymn 108 Praise Ye, Praise Ye The Lord (to be changed)",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 108 Praise Ye, Praise Ye The Lord.mp3",
@@ -438,7 +438,7 @@ const allSongs = [
 
         // with coughing sound
         id: 765,
-        title: "Hymn 765 My Heart is Firmly Fixed (change)",
+        title: "Hymn 765 My Heart is Firmly Fixed (to be changed)",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 765 My Heart is Firmly Fixed.mp3",
