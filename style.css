@@ -411,6 +411,7 @@
     .player-display-song-artist {
       padding: 0;
       margin: 0;
+      font-size: 15px;
     }
   
     .player-display-song-artist > p {
