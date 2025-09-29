@@ -51,14 +51,40 @@ const allSongs = [
                </br> What wondrous works the Lord has wrought.</p> <p></p> `
     },
      {
-        id: 0,
-        title: "Hymn # 6 All Ye That Fear Jehovah's Name",
+        id: 1,
+        title: "Hymn # 82 Unto The Hills Around Do I Lift Up",
         artist: "TRBCC Hymns",
-        duration: "3:36",
-        src: "/hymns/Hymn 6 All Ye That Fear Jehovah_s Name.mp3",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
         content: `
-                </br>1 All ye that fear Jehovah’s Name,
-               </br> His glory tell, His praise proclaim;`
+                </br>
+                    Unto the hills around do I lift up
+                     </br>My longing eyes;
+                    </br> O whence for me shall my salvation come,
+                    </br> From whence arise?
+                    </br> From God the Lord doth come my certain aid,
+                    </br> From God the Lord, who heav’n and earth hath made.
+                    </br> 2
+                    </br> </br> He will not suffer that thy foot be moved:
+                    </br> Safe shalt thou be.
+                    </br> No careless slumber shall His eyelids close,
+                    </br> Who keepeth thee.
+                    </br> Behold, He sleepeth not, He slumbereth ne’er,
+                    </br> Who keepeth Israel in His holy care.
+                    </br> 3
+                    </br> Jehovah is Himself thy keeper true,
+                    </br> Thy changeless shade;
+                    </br> Jehovah thy defense on thy right hand
+                     </br>Himself hath made.
+                     </br>And thee no sun by day shall ever smite;
+                    </br> No moon shall harm thee in the silent night.
+                    </br> 4
+                    </br> From every evil shall He keep thy soul,
+                     </br>From every sin;
+                    </br> Jehovah shall preserve thy going out,
+                     </br>Thy coming in.
+                     </br>Above thee, watching, He whom we adore
+                     </br>Shall keep thee henceforth, yea, for evermore. `
     },       
 
 ]

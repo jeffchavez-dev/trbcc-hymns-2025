@@ -106,7 +106,7 @@
     column-gap: 13px;
     align-items: center;
     justify-content: center;
-    border: solid 1px red;
+
   }
   
   #player-album-art {
@@ -128,12 +128,13 @@
     background-color: var(--background-color);
     height: 90%;
     width: 90%;
+    text-align: center;
   }
   
   .player-display-song-artist {
     height: 80%;
     overflow: scroll;
-    font-size: 15px;
+    font-size: 30px;
   }
 
 
