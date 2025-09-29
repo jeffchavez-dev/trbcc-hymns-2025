@@ -351,6 +351,10 @@
     .playlist {
       width: 90%;
     }
+
+    .fcc-title {
+      font-size: 8px;
+    }
   
     .player {
       height: 500px;
