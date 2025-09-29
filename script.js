@@ -93,7 +93,27 @@ const allSongs = [
         duration: "3:21",
         src: "/hymns/Hymn 13 O Worship The King.mp3",
         content: `
-                </br> `
+                </br> 1 O worship the King all-glorious above,
+                O gratefully sing his power and his love:
+                our shield and defender, the Ancient of Days,
+                pavilioned in splendor and girded with praise.
+                2 O tell of his might and sing of his grace,
+                whose robe is the light, whose canopy space.
+                His chariots of wrath the deep thunderclouds form,
+                and dark is his path on the wings of the storm.
+                3 Your bountiful care, what tongue can recite?
+                It breathes in the air, it shines in the light;
+                it streams from the hills, it descends to the plain,
+                and sweetly distills in the dew and the rain.
+                4 Frail children of dust, and feeble as frail,
+                in you do we trust, nor find you to fail.
+                Your mercies, how tender, how firm to the end,
+                our Maker, Defender, Redeemer, and Friend!
+                5 O measureless Might, unchangeable Love,
+                whom angels delight to worship above!
+                Your ransomed creation, with glory ablaze,
+                in true adoration shall sing to your praise!
+                Psalter Hymnal, (Gray)`
     },
      {
         id: 23,
@@ -102,7 +122,38 @@ const allSongs = [
         duration: "3:26",
         src: "/hymns/Hymn 23 O Light That Knew No Dawn.mp3",
         content: `
-                </br> `
+                </br> 1 O Light that knew no dawn,
+                that shines to endless day,
+                all things in earth and heav'n
+                are lustered by thy ray;
+                no eye can to thy throne ascend,
+                nor mind thy brightness comprehend.
+                2 Thy grace, O Father, give,
+                that I may serve in fear;
+                above all boons, I pray,
+                grant me thy voice to hear;
+                from sin thy child in mercy free,
+                and let me dwell in light with thee:
+                3 That, cleansed from stain of sin,
+                I may meet homage give,
+                and, pure in heart, behold
+                thy beauty while I live;
+                clean hands in holy worship raise,
+                and thee, O Christ my Savior, praise.
+                4 In supplication meek
+                to thee I bend the knee;
+                O Christ, when thou shalt come,
+                in love remember me,
+                and in thy kingdom, by thy grace,
+                grant me a humble servant's place.
+                5 Thy grace, O Father, give,
+                I humbly thee implore;
+                and let thy mercy bless
+                thy servant more and more.
+                All grace and glory be to thee,
+                from age to age eternally.
+
+                Source: Trinity Psalter Hymnal #221`
     },
      {
         id: 30,
@@ -111,14 +162,35 @@ const allSongs = [
         duration: "2:54",
         src: "/hymns/Hymn 30 Let Us With A Gladsome Mind.mp3",
         content: `
-                </br> `
+                </br> 1 Let us with a gladsome mind
+                praise the Lord, for he is kind:
+                for his mercies shall endure,
+                ever faithful, ever sure.
+                2 Let us sound his name abroad,
+                for of gods he is the God:
+                for his mercies shall endure,
+                ever faithful, ever sure.
+                3 He, with all-commanding might,
+                filled the new-made world with light:
+                for his mercies shall endure,
+                ever faithful, ever sure.
+                4 All things living he doth feed,
+                his full hand supplies their need:
+                for his mercies shall endure,
+                ever faithful, ever sure.
+                5 Let us then with gladsome mind
+                praise the Lord, for he is kind:
+                for his mercies shall endure,
+                ever faithful, ever sure.
+
+                Source: Trinity Psalter Hymnal#221`
     } ,
      {
         id: 108,
         title: "Hymn 108 Praise Ye, Praise Ye The Lord",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 108 Praise Ye, Praise Ye The Lord",
+        src: "/hymns/Hymn 108 Praise Ye, Praise Ye The Lord.mp3",
         content: `
                 </br> `
     },
@@ -166,16 +238,17 @@ const allSongs = [
         src: "/hymns/Hymn 765 My Heart is Firmly Fixed.mp3",
         content: `
                 </br> `
-    },
-     {
-        id: 00,
-        title: "Hymn ",
-        artist: "TRBCC Hymns",
-        duration: "4:16",
-        src: "/hymns/.mp3",
-        content: `
-                </br> `
-    }          
+    }
+    // ,
+    //  {
+    //     id: 00,
+    //     title: "Hymn ",
+    //     artist: "TRBCC Hymns",
+    //     duration: "4:16",
+    //     src: "/hymns/.mp3",
+    //     content: `
+    //             </br> `
+    // }          
     
 ]
 
