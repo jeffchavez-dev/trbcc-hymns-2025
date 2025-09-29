@@ -355,7 +355,10 @@
     .fcc-title {
       font-size: 8px;
     }
-  
+    
+    .parallel-lines {
+      display: none;
+    }
     .player {
       height: 500px;
     }
