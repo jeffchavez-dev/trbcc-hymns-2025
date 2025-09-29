@@ -10,8 +10,8 @@ const audioNegative  = document.querySelector('.audio-adjuster-negative')
 const audioPositive  = document.querySelector('.audio-adjuster-positive')
 const allSongs = [
     {
-        id: 0,
-        title: "Hymn # 6 All Ye That Fear Jehovah's Name",
+        id: 6,
+        title: "Hymn 6 All Ye That Fear Jehovah's Name",
         artist: "TRBCC Hymns",
         duration: "3:36",
         src: "/hymns/Hymn 6 All Ye That Fear Jehovah_s Name.mp3",
@@ -51,8 +51,8 @@ const allSongs = [
                </br> What wondrous works the Lord has wrought.</p> <p></p> `
     },
      {
-        id: 1,
-        title: "Hymn # 82 Unto The Hills Around Do I Lift Up",
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
@@ -85,7 +85,106 @@ const allSongs = [
                      </br>Thy coming in.
                      </br>Above thee, watching, He whom we adore
                      </br>Shall keep thee henceforth, yea, for evermore. `
-    }       
+    },
+     {
+        id: 13,
+        title: "Hymn 13 O Worship The King",
+        artist: "TRBCC Hymns",
+        duration: "3:21",
+        src: "/hymns/Hymn 13 O Worship The King.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 23,
+        title: "Hymn 23 O Light That Knew No Dawn",
+        artist: "TRBCC Hymns",
+        duration: "3:26",
+        src: "/hymns/Hymn 23 O Light That Knew No Dawn.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 30,
+        title: "Hymn 30 Let Us With A Gladsome Mind",
+        artist: "TRBCC Hymns",
+        duration: "2:54",
+        src: "/hymns/Hymn 30 Let Us With A Gladsome Mind.mp3",
+        content: `
+                </br> `
+    } ,
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    } ,
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    } ,
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 82,
+        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        content: `
+                </br> `
+    }          
+          
+         
+          
+         
+          
+          
+         
+          
+          
 
 ]
 
