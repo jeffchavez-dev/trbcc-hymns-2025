@@ -163,14 +163,27 @@
     align-items: center;
     flex-wrap: nowrap;
     width: 90%;
+    
   }
 
-  .player-audio-duration-field {
-    background-color: var(--highlight-color);
-    height: 1px;
+.player-audio-duration-container {
+    display: flex;
     width: 80%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.player-audio-duration-field {
+    background-color: var(--highlight-color);
+    height: 4px;           /* Make it more visible */
+    width: 80%;            /* This will be overridden by JS */
+    min-width: 0;
+    max-width: 100%;
+    transition: width 0.2s;
+    border-radius: 2px;
     cursor: pointer;
-  }
+    align-self: flex-start;
+}
 
   .audio-adjuster {
     border-radius: 100%;

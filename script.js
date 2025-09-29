@@ -123,69 +123,60 @@ const allSongs = [
                 </br> `
     },
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 376,
+        title: "Hymn 376 Thou Whose Almighty Word",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 376 Thou Whose Almighty Word.mp3",
         content: `
                 </br> `
     },
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 432,
+        title: "Hymn 432 Jesus What A Friend For Sinners",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 432 Jesus What A Friend For Sinners.mp3",
         content: `
                 </br> `
     } ,
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 762,
+        title: "Hymn 762 Of Mercy And Of Justice (First Tune)",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 762 Of Mercy And Of Justice (First Tune).mp3",
         content: `
                 </br> `
     },
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 763,
+        title: "Hymn 763 Unto The Lord Life Thankful Voices",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 763 Unto The Lord Life Thankful Voices.mp3",
         content: `
                 </br> `
     } ,
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 765,
+        title: "Hymn 765 My Heart is Firmly Fixed",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 765 My Heart is Firmly Fixed.mp3",
         content: `
                 </br> `
     },
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 00,
+        title: "Hymn ",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/.mp3",
         content: `
                 </br> `
     }          
-          
-         
-          
-         
-          
-          
-         
-          
-          
-
+    
 ]
 
 
@@ -265,12 +256,99 @@ const renderSongs = (array) => {
 
 playlistSongs.innerHTML = songsHTML
 
+
 }
+
+
+//  Display current time and duration
+
+const durationField = document.querySelector('.player-audio-duration-field');
+const durationText = document.querySelector('.player-audio-duration-text');
+
+// Update the duration display
+function updateAudioTimeDisplay() {
+    if (audio && durationField) {
+        const current = formatDuration(audio.currentTime || 0);
+        const total = isFinite(audio.duration) ? formatDuration(audio.duration) : "--:--";
+        durationText.textContent = `${current} / ${total}`;
+    }
+}
+
+// Update display as audio plays
+audio.addEventListener('timeupdate', updateAudioTimeDisplay);
+audio.addEventListener('loadedmetadata', updateAudioTimeDisplay);
+audio.addEventListener('durationchange', updateAudioTimeDisplay);
+
+// Seek -10 seconds
+audioPositive.addEventListener('click', () => {
+    audio.currentTime = Math.max(0, audio.currentTime - 10);
+});
+
+// Seek +10 seconds
+audioNegative.addEventListener('click', () => {
+    audio.currentTime = Math.min(audio.duration || audio.currentTime + 10, audio.currentTime + 10);
+});
 
 const setPlayButtonAccessibleText = () => {
     const song = userData?.currentSong || userData?.songs[0]
     playButton.setAttribute("aria-label", song?.title ? `Play ${song.title}` : "Play")
 }
+
+
+// ...existing code...
+
+// Utility to format seconds as mm:ss
+function formatDuration(durationInSeconds) {
+    const minutes = Math.floor(durationInSeconds / 60);
+    const seconds = Math.floor(durationInSeconds % 60);
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+}
+
+// Load and set actual durations for all songs
+function loadAllSongDurations() {
+    let loadedCount = 0;
+    allSongs.forEach((song, idx) => {
+        const tempAudio = new Audio(song.src);
+        tempAudio.addEventListener('loadedmetadata', () => {
+            if (isFinite(tempAudio.duration)) {
+                song.duration = formatDuration(tempAudio.duration);
+            } else {
+                song.duration = "--:--";
+            }
+            loadedCount++;
+            // When all durations are loaded, re-render the playlist
+            if (loadedCount === allSongs.length) {
+                renderSongs(userData.songs);
+            }
+        });
+        // In case of error loading audio
+        tempAudio.addEventListener('error', () => {
+            song.duration = "--:--";
+            loadedCount++;
+            if (loadedCount === allSongs.length) {
+                renderSongs(userData.songs);
+            }
+        });
+    });
+}
+
+// Call this once after defining allSongs and before first render
+loadAllSongDurations();
+
+
+function updateAudioProgressBar() {
+    if (audio && durationField && isFinite(audio.duration)) {
+        const percent = (audio.currentTime / audio.duration) * 100;
+        durationField.style.width = percent + "%";
+    } else if (durationField) {
+        durationField.style.width = "0%";
+    }
+}
+
+// Update as audio plays
+audio.addEventListener('timeupdate', updateAudioProgressBar);
+audio.addEventListener('loadedmetadata', updateAudioProgressBar);
+audio.addEventListener('durationchange', updateAudioProgressBar);
 
 
 const getCurrentSongIndex = () => {
