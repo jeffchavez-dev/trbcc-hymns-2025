@@ -295,7 +295,6 @@ const setPlayButtonAccessibleText = () => {
 }
 
 
-// ...existing code...
 
 // Utility to format seconds as mm:ss
 function formatDuration(durationInSeconds) {
@@ -331,6 +330,15 @@ function loadAllSongDurations() {
         });
     });
 }
+
+durationField.addEventListener('click', function(e) {
+    const rect = durationField.parentElement.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const percent = x / rect.width;
+    if (audio && isFinite(audio.duration)) {
+        audio.currentTime = percent * audio.duration;
+    }
+});
 
 // Call this once after defining allSongs and before first render
 loadAllSongDurations();
