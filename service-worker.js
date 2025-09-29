@@ -17,12 +17,6 @@ const urlsToCache = [
   '/hymns/Hymn 763 Unto The Lord Life Thankful Voices.mp3',
   '/hymns/Hymn 765 My Heart is Firmly Fixed.mp3',
   // '/hymns/',
-  // '/hymns/',
-  // '/hymns/',
-  // '/hymns/',
-  // '/hymns/',
-
-
 
 
   // add all your audio files here
