@@ -58,7 +58,7 @@
   }
   
   .player {
-    height: 370px;
+    height: 750px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -106,6 +106,7 @@
     column-gap: 13px;
     align-items: center;
     justify-content: center;
+    border: solid 1px red;
   }
   
   #player-album-art {
@@ -125,7 +126,7 @@
     padding: 14px;
     background-color: var(--background-color);
     height: 290px;
-    width: 400px;
+    width: 90%;
   }
   
   .player-display-song-artist {
