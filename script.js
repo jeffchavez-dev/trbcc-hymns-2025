@@ -19,6 +19,7 @@ const allSongs = [
                 </br>1 All ye that fear Jehovah’s Name,
                </br> His glory tell, His praise proclaim;
                </br> Ye children of His chosen race,
+               </br> Stand ye in awe before His face.
                </br> 2 The suffering one He has not spurned
                </br> Stand ye in awe before His face.
                </br> Who to Him for support has turned;
@@ -59,7 +60,7 @@ const allSongs = [
                 </br>1 All ye that fear Jehovah’s Name,
                </br> His glory tell, His praise proclaim;`
     },       
-    
+
 ]
 
 
