@@ -114,11 +114,11 @@ const allSongs = [
                 </br> `
     } ,
      {
-        id: 82,
-        title: "Hymn 82 Unto The Hills Around Do I Lift Up",
+        id: 108,
+        title: "Hymn 108 Praise Ye, Praise Ye The Lord",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 82 Unto The Hills Around Do I Lift Up.mp3",
+        src: "/hymns/Hymn 108 Praise Ye, Praise Ye The Lord",
         content: `
                 </br> `
     },
