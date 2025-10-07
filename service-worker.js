@@ -17,6 +17,9 @@ const urlsToCache = [
   '/hymns/Hymn 763 Unto The Lord Life Thankful Voices.mp3',
   '/hymns/Hymn 765 My Heart is Firmly Fixed.mp3',
   '/hymns/Hymn 532 Savior Thy Dying Love.mp3',
+  '/hymns/Hymn 505 All the Way My Savior Leads Me.mp3',
+  '/hymns/Hymn 282 For All The Saints.mp3',
+  '/hymns/Hymn 34 All That I Am I Owee.mp3',
   // '/hymns/',
 
 
