@@ -485,7 +485,7 @@ const allSongs = [
         title: "Hymn 532",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/.mp3",
+        src: "/hymns/Hymn 532 Savior Thy Dying Love.mp3",
         content: `
                 </br> 
                 </br> 1 Savior, Thy dying love
