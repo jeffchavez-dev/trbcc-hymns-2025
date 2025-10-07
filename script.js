@@ -523,8 +523,34 @@ const allSongs = [
                 </br> Thro' all eternity,
                 </br> Something for Thee.
                 </br> Baptist Hymnal, 1991`
-    }          
-    
+    },
+     {
+        id: 34,
+        title: "Hymn 34 All That I Am I Owe ",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 34 All That I Am I Owe.mp3",
+        content: `
+                </br> `
+    },
+     {
+        id: 282,
+        title: "Hymn 282 For All The Saints ",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 282 For All The Saints.mp3",
+        content: `
+                </br> `
+    }  ,
+     {
+        id: 505,
+        title: "Hymn 505 All the Way My Savior Leads Me ",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 505 All the Way My Savior Leads Me.mp3",
+        content: `
+                </br> `
+    } 
     // ,
     //  {
     //     id: 00,
