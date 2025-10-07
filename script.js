@@ -482,7 +482,7 @@ const allSongs = [
     ,
      {
         id: 532,
-        title: "Hymn 532",
+        title: "Hymn 532 Savior Thy Dying Love",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 532 Savior Thy Dying Love.mp3",

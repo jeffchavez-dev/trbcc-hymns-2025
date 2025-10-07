@@ -16,6 +16,7 @@ const urlsToCache = [
   '/hymns/Hymn 762 Of Mercy And Of Justice (First Tune).mp3',
   '/hymns/Hymn 763 Unto The Lord Life Thankful Voices.mp3',
   '/hymns/Hymn 765 My Heart is Firmly Fixed.mp3',
+  '/hymns/Hymn 532 Savior Thy Dying Love.mp3',
   // '/hymns/',
 
 
