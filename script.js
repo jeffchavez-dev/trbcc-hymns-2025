@@ -531,7 +531,32 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 34 All That I Am I Owe.mp3",
         content: `
-                </br> `
+                </br>
+                </br>1 All that I am I owe to Thee;
+                </br>Thy wisdom, LORD, has fashioned me;
+                </br>I give my Maker thankful praise,
+                </br>Whose wondrous works my soul amaze.
+                </br>
+                </br>2 E're into being I was brought,
+                </br>Your eye did see, and in Your thought
+                </br>My life in all its perfect plan
+                </br>Was ordered e're my days began.
+                </br>
+                </br>3 Your thoughts, O God, how manifold,
+                </br>More precious unto me than gold!
+                </br>I think on their infinity,
+                </br>Awaking I am still with Thee.
+                </br>
+                </br>4 The wicked You will surely slay;
+                </br>From me let sinners turn away;
+                </br>They speak against the Name divine;
+                </br>I count God's enemies as mine.
+                </br>
+                </br>5 Search me, O God, my heart discern,
+                </br>Try me, my inmost thought to learn;
+                </br>And lead me, if in sin I stray,
+                </br>To choose the everlasting way.
+                `
     },
      {
         id: 282,
@@ -540,7 +565,37 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 282 For All The Saints.mp3",
         content: `
-                </br> `
+                </br>
+                </br>1 For all the saints who from their labors rest,
+                </br>who Thee by faith before the world confessed;
+                </br>Thy name, O Jesus, be forever blest.
+                </br>Alleluia, Alleluia!
+                </br>
+                </br>2 Thou wast their Rock, their Fortress and their Might;
+                </br>Thou, Lord, their Captain in the well-fought fight;
+                </br>Thou, in the darkness drear, their one true Light.
+                </br>Alleluia, Alleluia!
+                </br>
+                </br>3 O blest communion, fellowship divine!
+                </br>We feebly struggle, they in glory shine;
+                </br>yet all are one in Thee, for all are Thine.
+                </br>Alleluia, Alleluia!
+                </br>
+                </br>4 And when the strife is fierce, the warfare long,
+                </br>steals on the ear the distant triumph song,
+                </br>and hearts are brave again, and arms are strong.
+                </br>Alleluia, Alleluia!
+                </br>
+                </br>5 But then there breaks a still more glorious day:
+                </br>the saints triumphant rise in bright array;
+                </br>the King of glory passes on His way.
+                </br>Alleluia, Alleluia!
+                </br>
+                </br>6 From earth's wide bounds, from ocean's farthest coast,
+                </br>through gates of pearl streams in the countless host,
+                </br>in praise of Father, Son, and Holy Ghost.
+                </br>Alleluia, Alleluia!
+                 `
     }  ,
      {
         id: 505,
@@ -549,7 +604,33 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 505 All the Way My Savior Leads Me.mp3",
         content: `
-                </br> `
+                </br> 
+               </br> 1. All the way my Savior leads me.
+               </br> What have I to ask beside?
+               </br> Can I doubt his tender mercy,
+               </br> Who thru' life has been my Guide?
+               </br> Heav'nly peace, divinest comfort,
+               </br> Here by faith in him to dwell!
+               </br> For I know, whate’er befall me,
+               </br> Jesus fashions all things well.
+               </br> 
+               </br> 2. All the way my Savior leads me,
+               </br> Cheers each winding path I tread;
+               </br> Gives me grace for ev’ry trial,
+               </br> Feeds me with the living Bread.
+               </br> Tho' my weary steps may falter,
+               </br> And my soul athirst may be,
+               </br> Gushing from the Rock before me,
+               </br> Lo! A spring of joy I see.
+               </br> 
+               </br> 3. All the way my Savior leads me;
+               </br> Oh, the fullness of His love!
+               </br> Perfect rest to me is promised
+               </br> In my Father’s house above.
+               </br> When my spirit, cloth'd immortal,
+               </br> Wings its flight to realms of day
+               </br> This my song thru' endless ages:
+               </br> Jesus led me all the way.`
     } 
     // ,
     //  {
