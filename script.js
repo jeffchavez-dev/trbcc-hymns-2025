@@ -478,8 +478,7 @@ const allSongs = [
              </br>   to God for help we plead.
              </br>   With God we shall do valiantly;
              </br>   with God we shall succeed.`
-    }
-    ,
+    },
      {
         id: 532,
         title: "Hymn 532 Savior Thy Dying Love",
