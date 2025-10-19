@@ -22,6 +22,10 @@ const urlsToCache = [
   '/hymns/Hymn 34 All That I Am I Owe.mp3',
   '/hymns/Hymn 265 How Precious is the Book Divine.mp3',
   '/hymns/Hymn 118 O Savior Precious Savior.mp3',
+  '/hymns/Hymn 731 And Can It Be.mp3',
+  '/hymns/Hymn 269 Glorious Things of Thee Are Spoken.mp3',
+  '/hymns/Hymn 548 More Love To Thee.mp3',
+  '/hymns/Hymn 764 O Praise the Lord for He is Good.mp3',
   // '/hymns/',
 
 

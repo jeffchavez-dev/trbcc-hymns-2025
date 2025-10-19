@@ -701,9 +701,69 @@ const allSongs = [
                         </br>where perfect praises ring,
                         </br>and evermore confess you
                         </br>our Savior and our King.`
-    } 
-
+    }
     
+
+    ,
+     {
+        id: 269,
+        title: "Hymn 269 Glorious Things of Thee Are Spoken",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 269 Glorious Things of Thee Are Spoken.mp3",
+        content: `
+                </br> `
+    }   
+
+        
+    ,
+     {
+        id: 731,
+        title: "Hymn 731 And Can It Be",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 731 And Can It Be.mp3",
+        content: `
+                </br> `
+    }   
+
+
+        ,
+     {
+        id: 548,
+        title: "Hymn 548 More Love To Thee  ",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 548 More Love To Thee.mp3",
+        content: `
+                </br> `
+    }   
+
+
+        ,
+     {
+        id: 764,
+        title: "Hymn 764 O Praise the Lord for He is Good",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/Hymn 764 O Praise the Lord for He is Good.mp3",
+        content: `
+                </br> `
+    }   
+
+
+        ,
+     {
+        id: 00,
+        title: "Hymn ",
+        artist: "TRBCC Hymns",
+        duration: "4:16",
+        src: "/hymns/.mp3",
+        content: `
+                </br> `
+    }   
+
+
     // ,
     //  {
     //     id: 00,
