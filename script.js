@@ -639,7 +639,7 @@ const allSongs = [
         title: "Hymn 265 How Precious is the Book Divine ",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 265 How Precious is the Book Divine .mp3",
+        src: "/hymns/Hymn 265 How Precious is the Book Divine.mp3",
         content: `
                 </br> 
                 </br>How Precious Is The Book Divine,
