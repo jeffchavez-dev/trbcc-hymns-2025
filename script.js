@@ -641,7 +641,21 @@ const allSongs = [
         duration: "4:16",
         src: "/hymns/Hymn 265 How Precious is the Book Divine .mp3",
         content: `
-                </br> `
+                </br> 
+                </br>How Precious Is The Book Divine,
+                </br>By Inspiration Given!
+                </br>Bright As A Lamp Its Precepts Shine,
+                </br>To Guide Our Souls To Heaven.
+</br>
+                </br>It Sweetly Cheers Our Drooping Hearts
+                </br>In This Dark Vale Of Tears;
+                </br>Life, Light, And Joy, It Still Imparts,
+                </br>And Quells Our Rising Fears.
+</br>
+                </br>This Lamp, Through All The Tedious Night
+                </br>Of Life, Shall Guide Our Way,
+                </br>Till We Behold The Clearer Light
+                </br>Of An Eternal Day.`
     }      
 
 
