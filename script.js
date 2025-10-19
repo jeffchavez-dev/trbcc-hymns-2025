@@ -480,11 +480,11 @@ const allSongs = [
              </br>   with God we shall succeed.`
     },
      {
-        id: 532,
-        title: "Hymn 532 Savior Thy Dying Love",
+        id: 538,
+        title: "Hymn 538 Savior Thy Dying Love",
         artist: "TRBCC Hymns",
         duration: "4:16",
-        src: "/hymns/Hymn 532 Savior Thy Dying Love.mp3",
+        src: "/hymns/Hymn 538 Savior Thy Dying Love.mp3",
         content: `
                 </br> 
                 </br> 1 Savior, Thy dying love
