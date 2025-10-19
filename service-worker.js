@@ -26,6 +26,8 @@ const urlsToCache = [
   '/hymns/Hymn 269 Glorious Things of Thee Are Spoken.mp3',
   '/hymns/Hymn 548 More Love To Thee.mp3',
   '/hymns/Hymn 764 O Praise the Lord for He is Good.mp3',
+  '/hymns/Hymn 220 Blessed Jesus At Thy Word We Are Gathered.mp3',
+  '/hymns/Hymn 421 Rock Of Ages Cleft For Me.mp3',
   // '/hymns/',
 
 
