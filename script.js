@@ -496,9 +496,9 @@ const allSongs = [
                 </br> Some off'ring bring Thee now,
                 </br> Something for Thee.
                 </br> 
-                </br> 2 At the blest mercy seat,
+                </br> 2 O'er the blest mercy seat,
                 </br> Pleading for me,
-                </br> My feeble faith looks up,
+                </br> Upward in faith I look,
                 </br> Jesus, to Thee:
                 </br> Help me the cross to bear,
                 </br> Thy wondrous love declare,
@@ -506,7 +506,7 @@ const allSongs = [
                 </br> Something for Thee.
                 </br> 
                 </br> 3 Give me a faithful heart,
-                </br> Likeness to Thee,
+                </br> Guided by Thee,
                 </br> That each departing day
                 </br> Henceforth may see
                 </br> Some work of love begun,
@@ -516,12 +516,13 @@ const allSongs = [
                 </br> 
                 </br> 4 All that I am and have,
                 </br> Thy gifts so free,
-                </br> In joy, in grief, thro' life,
-                </br> Dear Lord, for Thee!
+                </br> Ever in joy or grief,
+                </br> My Lord, for Thee!
                 </br> And when Thy face I see,
                 </br> My ransom'd soul shall be,
                 </br> Thro' all eternity,
                 </br> Something for Thee.
+                </br>
                 </br> Baptist Hymnal, 1991`
     },
      {
