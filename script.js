@@ -766,7 +766,7 @@ const allSongs = [
         ,
      {
         id: 548,
-        title: "Hymn 548 More Love To Thee  ",
+        title: "Hymn 548 More Love To Thee",
         artist: "TRBCC Hymns",
         duration: "4:16",
         src: "/hymns/Hymn 548 More Love To Thee.mp3",
